@@ -1,18 +1,50 @@
-#基于那个配置文件
-BasedOnStyle: Google
-
-#缩进宽度
-IndentWidth: 4
-
-
 ---
+Language:        Cpp
+BasedOnStyle:  Google
 
-Language: Cpp
+# 访问符缩进
+AccessModifierOffset: -2
 
-#多行声明语句按照对象名对齐
-AlignConsecutiveDeclarations: true
+# 参数换行
+AlignAfterOpenBracket: AlwaysBreak
 
-#连续的赋值语句以 = 为中心对齐
+# 赋值对齐
 AlignConsecutiveAssignments: true
 
+# 声明对齐
+AlignConsecutiveDeclarations: true
+
+# 宏换行符左移
+AlignEscapedNewlinesLeft: false
+
+AllowAllParametersOfDeclarationOnNextLine: true
+
+# 函数类型单独一行
+AlwaysBreakAfterReturnType: TopLevelDefinitions
+
+
+# 参数换行
+BinPackArguments: false 
+BinPackParameters: false
+
+# 运算符换行
+BreakBeforeBinaryOperators: NonAssignment
+
+ColumnLimit:     80
+
+ConstructorInitializerIndentWidth: 8
+
+# 太长换行缩进
+ContinuationIndentWidth: 8
+
+# 缩进
+IndentWidth:     4
+
+SortIncludes:    false
+
+SpacesBeforeTrailingComments: 4
+
+
+Standard:        Cpp11
+...
 
