@@ -1,0 +1,18 @@
+#基于那个配置文件
+BasedOnStyle: Google
+
+#缩进宽度
+IndentWidth: 4
+
+
+---
+
+Language: Cpp
+
+#多行声明语句按照对象名对齐
+AlignConsecutiveDeclarations: true
+
+#连续的赋值语句以 = 为中心对齐
+AlignConsecutiveAssignments: true
+
+
