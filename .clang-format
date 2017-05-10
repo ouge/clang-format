@@ -1,12 +1,14 @@
+BasedOnStyle:  Google
+
+# 缩进
+IndentWidth:     4
+
 ---
 Language:        Cpp
-BasedOnStyle:  Google
+
 
 # 访问符缩进
 AccessModifierOffset: -2
-
-# 参数换行
-AlignAfterOpenBracket: AlwaysBreak
 
 # 赋值对齐
 AlignConsecutiveAssignments: true
@@ -22,7 +24,6 @@ AllowAllParametersOfDeclarationOnNextLine: true
 # 函数类型单独一行
 AlwaysBreakAfterReturnType: TopLevelDefinitions
 
-
 # 参数换行
 BinPackArguments: false 
 BinPackParameters: false
@@ -37,13 +38,9 @@ ConstructorInitializerIndentWidth: 8
 # 太长换行缩进
 ContinuationIndentWidth: 8
 
-# 缩进
-IndentWidth:     4
-
 SortIncludes:    false
 
 SpacesBeforeTrailingComments: 4
-
 
 Standard:        Cpp11
 ...
