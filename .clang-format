@@ -7,6 +7,12 @@ IndentWidth:     4
 Language:        Cpp
 
 
+# 注释换行
+ReflowComments: false
+
+# 注释对齐
+AlignTrailingComments: true
+
 # 访问符缩进
 AccessModifierOffset: -2
 
