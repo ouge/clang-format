@@ -13,6 +13,12 @@ ReflowComments: false
 # 注释对齐
 AlignTrailingComments: true
 
+AllowShortFunctionsOnASingleLine: All
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortBlocksOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: true
+AllowShortLoopsOnASingleLine: true
+
 # 访问符缩进
 AccessModifierOffset: -2
 
@@ -27,12 +33,9 @@ AlignEscapedNewlinesLeft: false
 
 AllowAllParametersOfDeclarationOnNextLine: true
 
-# 函数类型单独一行
-AlwaysBreakAfterReturnType: TopLevelDefinitions
-
 # 参数换行
-BinPackArguments: false 
-BinPackParameters: false
+BinPackArguments: true 
+BinPackParameters: true
 
 # 运算符换行
 BreakBeforeBinaryOperators: NonAssignment
