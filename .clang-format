@@ -19,6 +19,8 @@ AllowShortBlocksOnASingleLine: true
 AllowShortIfStatementsOnASingleLine: true
 AllowShortLoopsOnASingleLine: true
 
+DerivePointerAlignment: false
+
 # 访问符缩进
 AccessModifierOffset: -2
 
